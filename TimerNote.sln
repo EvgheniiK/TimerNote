@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerNote", "TimerNote.csproj", "{4EDEBCA5-7DFC-4358-8E50-AAB4D72324A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EDEBCA5-7DFC-4358-8E50-AAB4D72324A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDEBCA5-7DFC-4358-8E50-AAB4D72324A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDEBCA5-7DFC-4358-8E50-AAB4D72324A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDEBCA5-7DFC-4358-8E50-AAB4D72324A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3A6AAE-E606-4237-A902-3901B37F5CA8}
+	EndGlobalSection
+EndGlobal

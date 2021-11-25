@@ -1,0 +1,51 @@
+﻿<Window x:Class="TimerNote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimerNote"
+        mc:Ignorable="d"
+         x:Name="MyNote" Title="  MyNote" Height="593.932" Width="334" WindowStyle="ToolWindow">
+    <Grid x:Name="MainBox" Margin="0,0,0,0.4">
+        <TextBox TextChanged="TextBox_TextChanged_2" HorizontalAlignment="Left" Margin="27,12,0,0" Text="User"
+             TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <Button Click="Button_Start" x:Name="buttonStart" HorizontalAlignment="Left" Margin="173,64,0,0"
+            VerticalAlignment="Top" Width="22" RenderTransformOrigin="1.329,2.59" Height="22">
+            <Image Source="/play-button.png" Width="13" Height="13" RenderTransformOrigin="1.205,0.513"/>
+        </Button>
+        <Button Click="Button_Stop" x:Name="buttonStop" HorizontalAlignment="Left" Margin="204,64,0,0"
+            VerticalAlignment="Top" Width="22" Height="22">
+            <Image Source="/stop.png" Width="13" Height="13" RenderTransformOrigin="1.205,0.513"/>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="27,42,0,0" Text="Таимер" TextWrapping="Wrap"
+               VerticalAlignment="Top" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="27,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top"
+               Height="13" Width="271"><Run Text="Время   "/><Run Text=" "/><Run Text=" "/><Run Text=" "/><Run Text="                   "/><Run Text="Начало"/><Run Text=" "/><Run Text="    "/><Run Text="           "/><Run Text="       К"/><Run Text="онец"/></TextBlock>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="276" Margin="27,109,0,0"
+            VerticalAlignment="Top" Width="271">
+            <Label Name="Otmetka"/>
+        </Border>
+        <TextBox TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Left" Height="59" Margin="27,501,0,0"
+             Text="C:\file.txt" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <Label x:Name="SystemClockLable" Content="00:00:00" HorizontalAlignment="Left" Margin="236,37,0,0"
+           VerticalAlignment="Top" Width="62" RenderTransformOrigin="2.105,0.572"/>
+        <TextBox TextChanged="TextBox_TextChanged" Name="TimeBox" HorizontalAlignment="Left" Height="21"
+             Margin="27,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Text="0час 0мин 0сек"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="53" Margin="27,425,0,0"
+            VerticalAlignment="Top" Width="271">
+            <Label Name="Summ" Margin="1.2,-0.8,-0.6,-1"/>
+        </Border>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="27,402,0,0" Text="Сумарное время"
+               TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="27,478,0,0"
+               Text="поле выбора txt фаила для сохранения" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="276" Margin="218,109,0,0"
+            VerticalAlignment="Top" Width="80">
+            <Label Name="EndTime"/>
+        </Border>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="276" Margin="122,109,0,0"
+            VerticalAlignment="Top" Width="80">
+            <Label Name="BeginTime"/>
+        </Border>
+    </Grid>
+</Window>
