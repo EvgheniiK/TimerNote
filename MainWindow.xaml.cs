@@ -27,6 +27,7 @@ namespace TimerNote
             new Presenter(this);//создание экзкмпляра
             new TimeProcessing(SystemClockLable);
         }
+       
         public DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();//создание экземпляра таимера
 
         /*     #region делигаты
