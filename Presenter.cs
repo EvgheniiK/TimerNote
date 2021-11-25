@@ -16,6 +16,7 @@ namespace TimerNote
         private readonly Model model;//переменная нашей модели поведения
         private readonly MainWindow viev;//перевеная текущего окна
         WriteToFile writeToFile = new WriteToFile();
+
         //  DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
         /*dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
                 dispatcherTimer.Interval = new TimeSpan(0,0,1);
