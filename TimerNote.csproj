@@ -11,12 +11,7 @@
     <None Remove="stop.png" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.FrameworkCompatibilityDiagnostics" Version="0.5.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
+
 
   <ItemGroup>
     <Resource Include="play-button.png" />
