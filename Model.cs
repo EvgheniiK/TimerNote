@@ -52,7 +52,6 @@ namespace TimerNote
             return fromStartTame;
         }
 
-
         public string GetTimeSpan()
         {
             TimeSpan temp2 = new TimeSpan();

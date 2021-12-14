@@ -35,7 +35,6 @@ namespace TimerNote
         {
             add { reset += value; }
             remove { reset -= value; }
-
         }
 
 
