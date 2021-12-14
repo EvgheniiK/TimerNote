@@ -27,10 +27,8 @@ namespace TimerNote
             new Presenter(this);//создание экзкмпляра
             new TimeProcessing(SystemClockLable);
         }
-       
-        public DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();//создание экземпляра таимера
 
-      
+        public DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();//создание экземпляра таимера
 
 
         //вызов события при нажате на кнопку
@@ -42,7 +40,7 @@ namespace TimerNote
         private void Button_Stop(object sender, RoutedEventArgs e)
         {
 
-         
+
             reset.Invoke(sender, e);
         }
 

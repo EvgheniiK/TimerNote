@@ -19,12 +19,9 @@ namespace TimerNote
     public partial class MainWindow : Window
     {
 
-
         #region делигаты
         private EventHandler start;
-        // private EventHandler stop;
         private EventHandler reset;
-
         #endregion
 
         //события
@@ -33,11 +30,7 @@ namespace TimerNote
             add { start += value; }
             remove { start -= value; }
         }
-        /*  public event EventHandler StopE
-          {
-              add { stop += value; }
-              remove { stop -= value; }
-          }*/
+
         public event EventHandler ResetE
         {
             add { reset += value; }

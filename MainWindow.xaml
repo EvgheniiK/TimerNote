@@ -38,7 +38,7 @@
         <TextBlock HorizontalAlignment="Left" Height="18" Margin="27,402,0,0" Text="Сумарное время"
                TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
         <TextBlock HorizontalAlignment="Left" Height="18" Margin="27,478,0,0"
-               Text="поле выбора txt фаила для сохранения" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+               Text="Поле выбора txt фаила для сохранения в JSON" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="276" Margin="218,109,0,0"
             VerticalAlignment="Top" Width="80">
             <Label Name="EndTime"/>

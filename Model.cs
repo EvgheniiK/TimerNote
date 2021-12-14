@@ -56,7 +56,7 @@ namespace TimerNote
         public string GetTimeSpan()
         {
             TimeSpan temp2 = new TimeSpan();
-         
+
             foreach (var item in timeSpanList)
             {
                 temp2 += item;

@@ -11,13 +11,13 @@ namespace TimerNote
 {
     class Presenter
     {
-      
+
 
         private readonly Model model;//переменная нашей модели поведения
         private readonly MainWindow viev;//переменная текущего окна
         WriteToFile writeToFile = new WriteToFile();
 
-    
+
 
         public Presenter(MainWindow mainWindow)//конструктор
         {
@@ -42,7 +42,7 @@ namespace TimerNote
 
         private void Viev_ResetE(object sender, EventArgs e)
         {
-        
+
             if (Model.stopWatch.IsRunning)
             {
                 viev.EndTime.Content += model.InToCollection().ToString(@"HH\:mm\:ss") + "\n";
@@ -54,7 +54,7 @@ namespace TimerNote
             viev.Otmetka.Content = "";
             TimeSpan temporaryItem = new TimeSpan();
 
-      
+
             foreach (var item in Model.timeSpanList)
             {
                 temporaryItem += item;//сложение показвний
