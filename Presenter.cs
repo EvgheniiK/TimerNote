@@ -54,7 +54,6 @@ namespace TimerNote
             viev.Otmetka.Content = "";
             TimeSpan temporaryItem = new TimeSpan();
 
-
             foreach (var item in Model.timeSpanList)
             {
                 temporaryItem += item;//сложение показвний
