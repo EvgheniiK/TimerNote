@@ -32,7 +32,6 @@ namespace TimerNote
 
                 try
                 {
-
                     StreamWriter f = new StreamWriter("C:\\file.txt", true);
                     f.WriteLine(writ);
                     f.WriteLine("Строка2");
